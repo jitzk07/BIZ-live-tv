@@ -38,7 +38,9 @@ html::-webkit-scrollbar {
 }
 .nav-item .nav-link {
   color: black;
-  margin-left: 10px;
+  margin-left: 30px;
+  margin-top: 50px;
+ 
   font-weight: bold;
   transition: 0.5s;
 }
@@ -54,8 +56,18 @@ html::-webkit-scrollbar {
 }
 .navbar-brand {
   font-weight: bold;
-  margin-left: 15px;
+  margin-left: 10px;
 }
+.sub1{
+  margin-left: 20%;
+  font-size: large;
+  font-weight: bold;
+  text-align: center  ;
+}
+.sub11{
+  text-decoration: underline;
+}
+
 /* navbar */
 /* home content */
 
@@ -384,7 +396,7 @@ h3 {
   transition: 0.5s;
 }
 .submit-button:hover {
-  background: #31279d;
+  background: #51c5b2;
 }
 /* Responsive css */
 @media only screen and (max-width: 767px) {
@@ -425,6 +437,7 @@ html {
   scroll-behavior: smooth;
 }
 .arrow {
+  
   position: fixed;
   border-radius: 50px;
   height: 50px;

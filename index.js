@@ -13,12 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
   fadeInOut();
 });
 
-
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
     const lines = document.querySelectorAll('.line');
     
