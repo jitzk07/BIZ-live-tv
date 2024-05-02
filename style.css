@@ -69,7 +69,7 @@ html::-webkit-scrollbar {
 }
 .box1 {
   position: absolute;
-  top: 56px;
+  top: 49px;
   left: 85%;
   transform: translateX(-50%);
   background-color: orange;
