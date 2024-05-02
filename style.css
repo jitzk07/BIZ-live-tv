@@ -27,7 +27,7 @@ html::-webkit-scrollbar {
 #logo {
   border-radius: 10px;
   width: 160px;
-  height: 75px;
+  height: 70px;
   margin-left: 25px;
   opacity: 0; /* Initially hidden */
   transition: opacity 1.5s ease-in-out;
@@ -38,8 +38,8 @@ html::-webkit-scrollbar {
 }
 .nav-item .nav-link {
   color: black;
-  margin-left: 30px;
-  margin-top: 50px;
+  margin-left: 0px;
+  margin-top: 70px;
  
   font-weight: bold;
   transition: 0.5s;
@@ -67,6 +67,35 @@ html::-webkit-scrollbar {
 .sub11{
   text-decoration: underline;
 }
+.box1 {
+  position: absolute;
+  top: 56px;
+  left: 85%;
+  transform: translateX(-50%);
+  background-color: orange;
+  padding: 7px;
+  border-radius: 5px;
+  animation: fadeInOut 3s infinite alternate;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.box1 p {
+  font-weight: bold;
+  color: #000000;
+  margin: 0;
+}
+
+
+
 
 /* navbar */
 /* home content */
@@ -131,7 +160,7 @@ h3 {
 
 #btn {
   margin-top: 20px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   background-color: #3498db;
   color: #fff;
   border: none;
